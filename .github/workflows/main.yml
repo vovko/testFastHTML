@@ -1,5 +1,10 @@
-name: Deploy pythonanywhere webapp
-on: [push]
+name: Deployment
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
